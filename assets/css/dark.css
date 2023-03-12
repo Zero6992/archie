@@ -16,11 +16,11 @@ body {
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted rgb(211, 211, 236);
 }
 code {
-  background-color: lightblue;
-  color: black;
+  background-color:#0b121d;
+  color: #a7b2be;
   text-decoration: bold;
   padding: 0.1em 0.2em;
 }
@@ -31,7 +31,7 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: rgb(211, 211, 236);
 }
 
 h1,
@@ -41,30 +41,6 @@ h4,
 h5,
 h6 {
   color: #ddd;
-}
-h1::before {
-  color: var(--darkMaincolor);
-  content: "# ";
-}
-h2::before {
-  color: var(--darkMaincolor);
-  content: "## ";
-}
-h3::before {
-  color: var(--darkMaincolor);
-  content: "### ";
-}
-h4::before {
-  color: var(--darkMaincolor);
-  content: "#### ";
-}
-h5::before {
-  color: var(--darkMaincolor);
-  content: "##### ";
-}
-h6::before {
-  color: var(--darkMaincolor);
-  content: "###### ";
 }
 
 a {
